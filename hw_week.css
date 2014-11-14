@@ -47,6 +47,7 @@ table {
 .wrap{
 	width: 940px;
 	margin: 0 auto;
+	font-family: arial;
 }
 .header {
 	position: relative;
