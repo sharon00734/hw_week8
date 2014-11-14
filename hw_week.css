@@ -1,0 +1,276 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*css reset*/
+
+
+.wrap{
+	width: 940px;
+	margin: 0 auto;
+}
+.header {
+	position: relative;
+	height: 120px;
+	margin-bottom: 30px;
+}
+.header h1 a{
+	margin-top: 30px;
+	margin-left: 10px;
+	display: block;
+	float: left;
+	position: relative;
+	padding-bottom:5; 
+}
+.header div.icon{
+	display: block;
+	width:100px;
+	height: 23px;
+	float: left;
+	margin-left: 650px;
+	margin-top: 30px;
+}
+.header div.icon a{
+	margin-right: 10px;
+	float: right;
+}
+.header div.menu{
+	float: right;
+	display: block;
+	margin-top: 45px;
+	margin-right: 20px;
+}
+.header div.menu li{
+	display: block;
+	float:left;
+	position: relative;
+	margin-left: 35px;
+	text-align:center;
+}
+
+.header div.menu ul{
+	list-style: none;
+	float: right;
+}
+.header div.menu a{
+	display: block;
+	margin-left: 35px;
+	color: #292929;
+	font-weight: bold;
+	text-decoration: none;
+}
+.header div.menu li a:hover{
+	color: #01a5ca;
+}
+
+
+.content{
+	margin: 0 0 30px 0px;
+	background: black;
+}
+.content div.photo{
+	margin: 0 auto;
+	position: relative;
+	float: left;
+}
+.content div.rightside{
+	margin: 0 0 0 640px;
+
+	padding: 20px 20px 28px 30px;
+}
+
+.content div.rightside h2{
+	padding: 40px 0 0 25px;
+	font-size: 45px;
+	color: #01a5ca;
+	text-align: left;
+}
+.content div.rightside p{
+	display: block;
+	line-height: 200%;
+	padding: 20px 35px 0 25px;
+	text-align: left;
+	color: white;
+}
+.content div.rightside a{
+	margin: 20px 0 0 25px;
+	padding: 10px 15px;
+	display: inline-block;
+	background: #3f3f3f;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.middle{
+	margin: 30px 0 35px 0px;
+	background: white;
+	padding: 25px 30px 30px 30px;
+	width: 880px;
+	line-height: 32px;
+	font-size: 18px;
+	display: block;
+}
+.middle a{
+	text-decoration: none;
+	color: #01a5ca;
+}
+.bottom{
+	height:370px;
+	display: block;
+	padding: 25px 30px 30px 45px;
+	background: white;
+}
+.left{
+	width: 575px;
+	position: relative;
+	float: left;
+}
+.bottom div.left em{
+	color: #01a5ca;
+	font-size: 30px;
+}
+.bottom div.left h2{
+	position: relative;
+	font-size: 30px;
+	padding-bottom: 12px;
+}
+.bottom div.left dl{
+	min-height: 160px;
+	margin: 0 0 25px 0;
+	position: relative;
+}
+.bottom div.left dl dt{
+	margin: 0 0 10px 220px;
+	display: block;
+}
+.bottom div.left dl dt h3{
+	font-size: 15px;
+	font-weight: 900;
+	line-height: 1.7em;
+}
+
+.bottom div.left dl dd.photo_2{
+	position: absolute;
+	top: 8px;
+	left: 0;
+	margin: 0;
+	width: 195px;
+}
+
+.bottom div.left dl dd{
+	font-weight: lighter;
+	margin: 0 25px 0 220px;
+	line-height: 1.7em;
+	font-size: 15px;
+	position: relative;
+}
+
+.right{
+	width: 275px;
+	float: right;
+	display: block;
+	position: relative;
+}
+.right div.lists em{
+	color: #01a5ca;
+	font-size: 30px;
+}
+.right div.lists h3{
+	position: relative;
+	font-size: 30px;
+	padding-bottom: 12px;
+}
+.lists ul{
+	margin: 5px 0 0 0;
+	position: relative;
+}
+.lists li{
+	margin: 10px 0  10px 0px;
+}
+.lists li a{
+	padding: 0 0 0 10px;
+	text-decoration: none;
+	color: black;
+}
+.lists li a:hover{
+	color: #01a5ca;
+}
+.search{
+	margin: 60px 0 0 0;
+	position: relative;
+}
+.search em{
+	color: #01a5ca;
+	font-size: 30px;
+}
+.search h4{
+	position: relative;
+	font-size: 30px;
+	padding-bottom: 12px;
+}
+.input{
+	margin: 8px 0 15px 0;
+	padding: 10px 13px 10px 13px;
+	border: 1px solid #ccc;
+	color: #ccc;
+	font-size: 15px;
+}
+.push{
+	margin: 5px 0 0 5px;
+	padding: 12px 18px 12px 18px;
+	color: #01a5ca;
+	border: none;
+	font-size: 15px;
+	background: #f3f3f3;
+}
+.footer{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.footer p{
+	text-align: center;
+	line-height: 1.7em;
+}
+.footer a{
+	text-decoration: none;
+	color: #01a5ca;
+}
